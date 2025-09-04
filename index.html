@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siddhant Baliyan - Full Stack Web Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h3>Siddhant Baliyan</h3>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link active" data-page="home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link" data-page="about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#services" class="nav-link" data-page="services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#portfolio" class="nav-link" data-page="portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#blog" class="nav-link" data-page="blog">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link" data-page="contact">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Page -->
+    <div id="home" class="page active">
+        <section class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">Chaudhary Siddhant Baliyan</h1>
+                <p class="hero-subtitle">Full Stack Web Developer & AI Enthusiast</p>
+                <p class="hero-description">I support companies to develop their websites using modern technologies like MERN Stack, React, Java, and more.</p>
+                <div class="hero-buttons">
+                    <button class="btn btn--primary" onclick="navigateToPage('portfolio')">View Portfolio</button>
+                    <button class="btn btn--outline" onclick="navigateToPage('contact')">Get In Touch</button>
+                </div>
+            </div>
+            <div class="hero-slider">
+                <div class="slider-container">
+                    <div class="slide active">
+                        <div class="slide-content">
+                            <i class="fas fa-code slide-icon"></i>
+                            <h3>Web Development</h3>
+                            <p>Modern, responsive websites</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="slide-content">
+                            <i class="fas fa-server slide-icon"></i>
+                            <h3>Full Stack</h3>
+                            <p>Complete web solutions</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="slide-content">
+                            <i class="fas fa-paint-brush slide-icon"></i>
+                            <h3>Graphic Design</h3>
+                            <p>Creative visual solutions</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="slide-content">
+                            <i class="fas fa-layer-group slide-icon"></i>
+                            <h3>MERN Stack</h3>
+                            <p>MongoDB, Express, React, Node.js</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-nav">
+                    <button class="slider-btn prev-btn">&larr;</button>
+                    <button class="slider-btn next-btn">&rarr;</button>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- About Page -->
+    <div id="about" class="page">
+        <div class="container">
+            <section class="about-section">
+                <h1>About Me</h1>
+                <div class="about-content">
+                    <div class="about-text">
+                        <h2>Chaudhary Siddhant Baliyan</h2>
+                        <p class="about-intro">I am a passionate Full Stack Web Developer specializing in MERN Stack, Java, CSS, and React. Currently pursuing my Integrated B.Tech - M.Tech in Computer Science Engineering with specialization in Artificial Intelligence from Gautam Buddha University, Greater Noida.</p>
+                        
+                        <div class="education-info">
+                            <h3>Education</h3>
+                            <p><strong>Gautam Buddha University, Greater Noida</strong></p>
+                            <p>Integrated B.Tech - M.Tech CSE with Specialization in Artificial Intelligence</p>
+                            <p><strong>Location:</strong> Muzaffarnagar</p>
+                        </div>
+                        
+                        <div class="contact-info">
+                            <h3>Contact Information</h3>
+                            <p><i class="fas fa-envelope"></i> siddhantbaliyan823@gmail.com</p>
+                            <p><i class="fas fa-phone"></i> +91 9068742752</p>
+                            <p><i class="fas fa-map-marker-alt"></i> Muzaffarnagar, India</p>
+                        </div>
+                    </div>
+                    
+                    <div class="skills-section">
+                        <h3>Technical Skills</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <i class="fab fa-html5"></i>
+                                <span>HTML5</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-css3-alt"></i>
+                                <span>CSS3</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-js-square"></i>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-react"></i>
+                                <span>React</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-java"></i>
+                                <span>Java</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fab fa-node-js"></i>
+                                <span>Node.js</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-database"></i>
+                                <span>MongoDB</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-paint-brush"></i>
+                                <span>Graphic Design</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- Services Page -->
+    <div id="services" class="page">
+        <div class="container">
+            <section class="services-section">
+                <h1>My Services</h1>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <i class="fas fa-code service-icon"></i>
+                        <h3>Web Development</h3>
+                        <p>Custom website development using modern technologies and best practices for responsive, fast, and SEO-friendly websites.</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-server service-icon"></i>
+                        <h3>Full Stack Development</h3>
+                        <p>Complete web application development from frontend to backend, including database design and API development.</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-layer-group service-icon"></i>
+                        <h3>MERN Stack</h3>
+                        <p>Specialized in MongoDB, Express.js, React, and Node.js for building scalable and modern web applications.</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-paint-brush service-icon"></i>
+                        <h3>Graphic Design</h3>
+                        <p>Creative designs for web and print media, including logos, banners, and complete brand identity solutions.</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-desktop service-icon"></i>
+                        <h3>Online Web Design</h3>
+                        <p>Professional web design services for businesses, focusing on user experience and modern design trends.</p>
+                    </div>
+                    <div class="service-card">
+                        <i class="fas fa-mobile-alt service-icon"></i>
+                        <h3>Responsive Design</h3>
+                        <p>Mobile-first approach ensuring your website looks perfect on all devices and screen sizes.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- Portfolio Page -->
+    <div id="portfolio" class="page">
+        <div class="container">
+            <section class="portfolio-section">
+                <h1>My Portfolio</h1>
+                <div class="portfolio-filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="full-stack">Full Stack</button>
+                    <button class="filter-btn" data-filter="web-development">Web Development</button>
+                    <button class="filter-btn" data-filter="graphic-design">Graphic Design</button>
+                </div>
+                <div class="portfolio-grid">
+                    <div class="portfolio-item" data-category="full-stack">
+                        <div class="portfolio-card">
+                            <div class="portfolio-image">
+                                <i class="fas fa-shopping-cart portfolio-icon"></i>
+                            </div>
+                            <div class="portfolio-content">
+                                <h3>E-Commerce Platform</h3>
+                                <p>Full-stack e-commerce solution built with MERN stack featuring user authentication, payment integration, and admin panel.</p>
+                                <div class="tech-stack">
+                                    <span class="tech-tag">React</span>
+                                    <span class="tech-tag">Node.js</span>
+                                    <span class="tech-tag">MongoDB</span>
+                                    <span class="tech-tag">Express.js</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="web-development">
+                        <div class="portfolio-card">
+                            <div class="portfolio-image">
+                                <i class="fas fa-briefcase portfolio-icon"></i>
+                            </div>
+                            <div class="portfolio-content">
+                                <h3>Business Website</h3>
+                                <p>Responsive business website with modern design, contact forms, and optimized performance for better user experience.</p>
+                                <div class="tech-stack">
+                                    <span class="tech-tag">HTML5</span>
+                                    <span class="tech-tag">CSS3</span>
+                                    <span class="tech-tag">JavaScript</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item" data-category="graphic-design">
+                        <div class="portfolio-card">
+                            <div class="portfolio-image">
+                                <i class="fas fa-palette portfolio-icon"></i>
+                            </div>
+                            <div class="portfolio-content">
+                                <h3>Portfolio Website</h3>
+                                <p>Creative portfolio website for a designer with stunning visuals, smooth animations, and responsive layout.</p>
+                                <div class="tech-stack">
+                                    <span class="tech-tag">React</span>
+                                    <span class="tech-tag">CSS3</span>
+                                    <span class="tech-tag">Node.js</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- Blog Page -->
+    <div id="blog" class="page">
+        <div class="container">
+            <section class="blog-section">
+                <h1>My Blog</h1>
+                <div class="blog-search">
+                    <input type="text" id="blogSearch" placeholder="Search blog posts..." class="form-control">
+                </div>
+                <div class="blog-grid">
+                    <article class="blog-card" data-category="web-development">
+                        <div class="blog-meta">
+                            <span class="blog-date">Sep 01, 2025</span>
+                            <span class="blog-category">Web Development</span>
+                        </div>
+                        <h2>Modern Web Development Trends in 2025</h2>
+                        <p>Exploring the latest trends and technologies shaping web development, including AI integration, serverless architecture, and progressive web apps.</p>
+                        <button class="btn btn--outline btn--sm">Read More</button>
+                    </article>
+                    <article class="blog-card" data-category="full-stack">
+                        <div class="blog-meta">
+                            <span class="blog-date">Aug 25, 2025</span>
+                            <span class="blog-category">Full Stack</span>
+                        </div>
+                        <h2>Getting Started with MERN Stack</h2>
+                        <p>A comprehensive guide to building applications with MongoDB, Express, React, and Node.js. Perfect for beginners and intermediate developers.</p>
+                        <button class="btn btn--outline btn--sm">Read More</button>
+                    </article>
+                    <article class="blog-card" data-category="ai-technology">
+                        <div class="blog-meta">
+                            <span class="blog-date">Aug 20, 2025</span>
+                            <span class="blog-category">AI & Technology</span>
+                        </div>
+                        <h2>The Future of AI in Web Development</h2>
+                        <p>How artificial intelligence is transforming the way we build websites, from automated coding to intelligent user experiences.</p>
+                        <button class="btn btn--outline btn--sm">Read More</button>
+                    </article>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- Contact Page -->
+    <div id="contact" class="page">
+        <div class="container">
+            <section class="contact-section">
+                <h1>Get In Touch</h1>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h2>Contact Information</h2>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h3>Email</h3>
+                                <p>siddhantbaliyan823@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h3>Phone</h3>
+                                <p>+91 9068742752</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h3>Location</h3>
+                                <p>Muzaffarnagar, India</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <form class="contact-form" id="contactForm">
+                        <h2>Send Me a Message</h2>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name" class="form-label">Name *</label>
+                                <input type="text" id="name" name="name" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email" class="form-label">Email *</label>
+                                <input type="email" id="email" name="email" class="form-control" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone" class="form-label">Phone</label>
+                                <input type="tel" id="phone" name="phone" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="address" class="form-label">Address</label>
+                                <input type="text" id="address" name="address" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message *</label>
+                            <textarea id="message" name="message" rows="5" class="form-control" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn--primary btn--full-width">Send Message</button>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Siddhant Baliyan</h3>
+                    <p>Full Stack Web Developer specializing in modern web technologies and AI.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home" onclick="navigateToPage('home')">Home</a></li>
+                        <li><a href="#about" onclick="navigateToPage('about')">About</a></li>
+                        <li><a href="#services" onclick="navigateToPage('services')">Services</a></li>
+                        <li><a href="#contact" onclick="navigateToPage('contact')">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>siddhantbaliyan823@gmail.com</p>
+                    <p>+91 9068742752</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Siddhant Baliyan. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
